@@ -86,8 +86,6 @@ const Navbar = () => {
           id="sortAlgorithms"
           onChange={(e) => {
             setSortingAlgorithm(e.target.value);
-            createRandomArray();
-            resetBars();
           }}
         >
           <option value="Bubble Sort">Bubble Sort</option>
