@@ -28,7 +28,7 @@ export default function GlobalContext({ children }) {
   useEffect(() => {
     createRandomArray();
     resetBars();
-  }, [size]);
+  }, [size, sortingAlgorithm]);
 
   return (
     <Context.Provider
